@@ -1,0 +1,30 @@
+
+body button
+{
+    border-color:black;
+    background-color: red;  
+}
+#home
+{
+  display: block;
+}
+#userdetails
+{
+    display: none;
+}
+#login
+{
+    display: none;
+}
+#option
+{
+    display: none;
+}
+#availblecourse
+{
+    display: none;
+}
+#enrolledcourse
+{
+    display: none;
+}

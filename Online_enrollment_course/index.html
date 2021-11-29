@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script/main.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="home">
+        <h2>Home Page</h2>
+        <button id="newuser" onclick="newuser()"> New user</button>
+        <button id="exuser"  onclick="login()">Login</button>
+    </div>
+    <div id="userdetails">
+        <h2>Enter user details</h2>
+       <label for="name">Name</label>
+       <input type="text" id="name">
+       <label for="age">Age</label>
+       <input type="number" id="age">
+       <label for="num">Mobile Number</label>
+       <input type="number" id="num">
+       <button id="add" onclick="validation()">Add</button>
+    </div >
+    <div id="login">
+        <h2>Login</h2>
+        <label for="id">Enter your ID</label>
+        <input type="text" id="id">
+        <button id="log" onclick="course()">login</button>
+    </div>
+    <div id="option">
+        <h2>Available Courses and enrolled</h2>
+            <button id="available" onclick="available()">Available Course</button>
+            <button id="enrolled" onclick="enrolled()">Enrolled Course</button>
+    </div>
+    <div id="availblecourse">
+        <h2>Available course</h2>
+        <label for="days">Enter the no of days</label>
+        <input type="number" id="days">
+        <select  id="course">
+            <option id="course1" value="one">C#</option>
+            <option id="course1" value="two">HTML</option>
+            <option id="course1" value="three">CSS</option>
+            <option id="course1" value="four">JavaScript</option>
+            <option value="five">Typescript</option>
+        </select>
+        <button id="homepage" onclick="home()">OK</button>
+    </div>
+    <div id="enrolledcourse">
+        <h2>Enrolled course</h2>
+        <label id="details"></label>  
+        <button id="homepage" onclick="home()">HOME</button>         
+    </div>
+</body>
+</html>
